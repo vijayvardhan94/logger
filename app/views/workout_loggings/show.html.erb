@@ -1,0 +1,68 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @workout_logging.date %>
+</p>
+
+<p>
+  <strong>Dailyheartrate:</strong>
+  <%= @workout_logging.dailyHeartRate %>
+</p>
+
+
+
+<<p>
+  <strong>Hourlyheartrate:</strong>
+  <%= @workout_logging.hourlyHeartRate %>
+</p>
+
+
+
+<p>
+  <strong>Height:</strong>
+  <%= @workout_logging.height %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @workout_logging.weight %>
+</p>
+
+<p>
+  <strong>Steps:</strong>
+  <%= @workout_logging.steps %>
+</p>
+
+<p>
+  <strong>Lightlyactiveminutes:</strong>
+  <%= @workout_logging.lightlyActiveminutes %>
+</p>
+
+<p>
+  <strong>Fairlyactiveminutes:</strong>
+  <%= @workout_logging.fairlyActiveminutes %>
+</p>
+
+<p>
+  <strong>Veryactiveminutes:</strong>
+  <%= @workout_logging.veryActiveminutes %>
+</p>
+
+<p>
+  <strong>Activitycalories:</strong>
+  <%= @workout_logging.activityCalories %>
+</p>
+
+<p>
+  <strong>Sleepstarttime:</strong>
+  <%= @workout_logging.sleepStartTime %>
+</p>
+
+<p>
+  <strong>Sleependtime:</strong>
+  <%= @workout_logging.sleepEndTime %>
+</p>
+
+<%= link_to 'Edit log', edit_workout_logging_path(@workout_logging) %> |
+<%= link_to 'Back', workout_loggings_path %>

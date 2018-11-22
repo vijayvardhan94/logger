@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2018-11-20 11:38:52
+  dailyHeartRate: MyString
+  float: MyString
+  hourlyHeartRate: MyString
+  float: MyString
+  height: 1.5
+  weight: 1.5
+  steps: 1.5
+  lightlyActiveminutes: 1.5
+  fairlyActiveminutes: 1.5
+  veryActiveminutes: 1.5
+  activityCalories: 1.5
+  sleepStartTime: 2018-11-20 11:38:52
+  sleepEndTime: 2018-11-20 11:38:52
+
+two:
+  date: 2018-11-20 11:38:52
+  dailyHeartRate: MyString
+  float: MyString
+  hourlyHeartRate: MyString
+  float: MyString
+  height: 1.5
+  weight: 1.5
+  steps: 1.5
+  lightlyActiveminutes: 1.5
+  fairlyActiveminutes: 1.5
+  veryActiveminutes: 1.5
+  activityCalories: 1.5
+  sleepStartTime: 2018-11-20 11:38:52
+  sleepEndTime: 2018-11-20 11:38:52

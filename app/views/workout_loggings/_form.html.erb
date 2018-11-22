@@ -1,0 +1,87 @@
+<%= form_with(model: workout_logging, local: true) do |form| %>
+  <% if workout_logging.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(workout_logging.errors.count, "error") %> prohibited this workout_logging from being saved:</h2>
+
+      <ul>
+      <% workout_logging.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :date %>
+    <%= form.datetime_select :date %>
+  </div>
+
+  <!--<div class="field">
+    <%= form.label :dailyHeartRate %>
+    <%= form.text_field :dailyHeartRate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :float %>
+    <%= form.text_field :float %>
+  </div>
+
+  <div class="field">
+    <%= form.label :hourlyHeartRate %>
+    <%= form.text_field :hourlyHeartRate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :float %>
+    <%= form.text_field :float %>
+  </div>-->
+
+  <div class="field">
+    <%= form.label :height %>
+    <%= form.text_field :height %>
+  </div>
+
+  <div class="field">
+    <%= form.label :weight %>
+    <%= form.text_field :weight %>
+  </div>
+
+  <div class="field">
+    <%= form.label :steps %>
+    <%= form.text_field :steps %>
+  </div>
+
+  <!--<div class="field">
+    <%= form.label :lightlyActiveminutes %>
+    <%= form.text_field :lightlyActiveminutes %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fairlyActiveminutes %>
+    <%= form.text_field :fairlyActiveminutes %>
+  </div>
+
+  <div class="field">
+    <%= form.label :veryActiveminutes %>
+    <%= form.text_field :veryActiveminutes %>
+  </div>-->
+
+  <div class="field">
+    <%= form.label :activityCalories %>
+    <%= form.text_field :activityCalories %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sleepStartTime %>
+    <%= form.datetime_select :sleepStartTime %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sleepEndTime %>
+    <%= form.datetime_select :sleepEndTime %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
